@@ -1,0 +1,80 @@
+	html{
+	background-color: #2F4F4F;   
+	}
+
+	body{
+	font-family:  sans-serif;
+	margin: 0;
+    margin: 1em auto;   
+    text-align: center;
+	background-color:#FFFFFF;
+	width:80%;
+	
+	}	
+
+	header{
+	padding: 1em   
+	}
+
+	header h1{
+	border-style: solid;
+	border-width: thin;
+	margin-top: 1em;
+	padding: 0.5em 1em;
+	text-align:center;
+	border-radius: 2em;
+	box-shadow: 5px 2px 10px #444;
+	color: #666;
+	}   
+	#logo-puc{
+	margin: 1em auto;
+
+	}
+	ul{
+	list-style: none;
+	display: inline;
+	width:95%;
+	}
+	
+	section li{
+    float: left;
+    text-align: center;
+    margin: 1em;
+    }
+	
+	li img {
+    width:240px;
+    height: 320px;
+    border-radius: 1em;
+    box-shadow: 5px 5px 30px #444;
+    }
+
+    li figcaption{
+    padding: 5px;  
+    margin-top: 2px;
+    }
+
+    li a{
+    text-decoration: none;  
+    color: #444;
+    }
+
+    li a:hover img{
+    box-shadow: 5px 5px 30px #ccc;
+    }
+	
+footer{
+    clear:both;
+    font-size: small;   
+    text-align: center;
+    }
+		
+#img_perfil{
+    float:left;   
+    box-shadow: 5px 5px 30px #444;
+}
+#img_perfil+p{
+    clear:none;  
+    text-align: justify;
+    padding: 1em;
+}
